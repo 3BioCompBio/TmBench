@@ -51,7 +51,7 @@ Note that the code to train the modelswas mainly taken from https://github.com/R
 - Create the conda environment: `conda env create -f environment.yml` (can take a few minutes) and activate it with `conda activate tmbench_run`
 - Run the example: `python3 run.py` from the `/finetuned_models` directory.
 
-Running with no arguments will launch the FINE_650M_FULL_MELTOME model on 'example.fasta' and save as 'out.csv', using a GPU is available.
+Running with no arguments will launch the FINE_650M_FULL_MELTOME model on 'example.fasta' and save as 'out.csv', using a GPU if available.
 
 Usage: 
 
